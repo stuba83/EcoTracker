@@ -1,0 +1,111 @@
+# Arduino IDE files
+*.hex
+*.elf
+*.bin
+*.map
+*.lst
+*.sym
+*.lss
+*.eep
+*.srec
+*.o
+*.a
+*.d
+*.ino.cpp
+*.ino.with_bootloader.hex
+*.ino.with_bootloader.bin
+
+# Build directories
+build/
+bin/
+obj/
+
+# Arduino IDE temporary files
+.vscode/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Azure IoT configuration files (sensitive)
+*.connection_string
+*.device_key
+*.primary_key
+*.secondary_key
+config/secrets.h
+src/azure-config/secrets.h
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js (for web dashboard)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# Python (for data analysis scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Documentation build
+docs/_build/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+
+# Hardware documentation (large files)
+*.pdf
+*.zip
+*.rar
+
+# Compiled libraries
+*.lib
