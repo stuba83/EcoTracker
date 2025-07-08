@@ -177,5 +177,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Project Started:** July 2025  
-**Developer:** [Your Name]  
+**Developer:** Steven Uba  
 **Version:** 1.0
